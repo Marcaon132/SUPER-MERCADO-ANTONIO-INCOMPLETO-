@@ -1,0 +1,38 @@
+header {
+	background: #ff0000;
+	padding: 23px;
+}
+
+.position {
+	position: relative;
+	width: 940px;
+	margin: 20px auto;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+#cortitulo {
+	background: #008000;
+	color: #004f77;
+	padding: 5px;
+}
+
+nav {
+	position: absolute;
+	top: 10px;
+	right:0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 20px;
+}
+
+nav a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 19px;

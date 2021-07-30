@@ -1,0 +1,33 @@
+header {
+	background: #FFA500;
+	padding: 22px;
+}
+
+.position {
+	position: relative;
+	width: 940px;
+	margin: 20px auto;
+}
+
+h1 img {
+	width: 50px;
+}
+
+nav {
+	position: absolute;
+	top: 21px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 19px;
+}
