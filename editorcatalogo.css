@@ -38,6 +38,10 @@ nav a {
 	font-size: 19px;
 }
 
+nav a:hover {
+	color: white;
+}
+
 #container-imagem {
 	position: relative;
 	height: 200vh;
