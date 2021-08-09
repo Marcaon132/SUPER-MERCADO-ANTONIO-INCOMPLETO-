@@ -20,28 +20,41 @@
 			</div>
 		</header>
 
-		<main>
+		<main class="cormain">
 			<form>
 				<label for="nome">Nome Completo</label>
-				<input type="text" id="nome">
-
+				<input type="text" id="nome" class="input-padrão">
+				
 				<label for="number">Telefone</label>
-				<input type="text" id="number">
+				<input type="tel" id="number" class="input-padrão">
 
 				<label for="e-mail">Endereço de Email</label>
-				<input type="text" id="e-mail">
+				<input type="email" id="e-mail" class="input-padrão">
 
 				<label for="Mensagem">Mensagem</label>
-				<textarea cols="70" rows="10" id="Mensagem"></textarea>
+				<textarea cols="70" rows="10" id="Mensagem" class="input-padrão"></textarea>
 
-				<label for="radio-email">E-mail</label>
-				<input type="radio" name="contato" value="e-mail" id="radio-email">
+				<div>
+					<p>Como você prefere o nosso contato?</p>
 
-				<label for="radio-Telefone">Telefone</label>
-				<input type="radio" name="contato" id="radio-Telefone">
+					<label for="radio-email"><input type="radio" name="contato" value="e-mail" id="radio-email">E-mail</label>
 
-				<label for="radio-whatsapp">Whatsapp</label>
-				<input type="radio" name="contato" id="radio-whatsapp">
+					<label for="radio-Telefone"><input type="radio" name="contato" id="radio-Telefone">Telefone</label>
+
+					<label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp">Whatsapp</label>
+				</div>
+
+				<div>
+					<p>Qual o horario que gostria de ser atendido</p>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</div>
+
+				<label for="checkbox" class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por e-mail?</label>
+
 
 				<input type="submit" value="Enviar Formulário">
 

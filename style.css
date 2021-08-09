@@ -121,8 +121,8 @@
 		font-size: 15px;
 	}
 
-	#cormain{
-		background-color: green;
+	.cormain {
+		background-color: yellowgreen;
 		padding: 20px 0;
 	}
 
@@ -130,15 +130,19 @@
 		margin: 40px 50;
 	}
 
-	form label {
+	form label, form p {
 		display: block;
 		font-size: 20px;
 		margin: 0 0 10px;
 	}
 
-	input {
+	.input-padrão {
 		display: block;
 		margin: 0 0 20px;
 		padding: 10px 25px;
 		width: 50%;
+	}
+
+	.checkbox {
+		margin: 20px 0;
 	}
