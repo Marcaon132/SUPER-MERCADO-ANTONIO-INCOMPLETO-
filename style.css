@@ -151,3 +151,19 @@
 	.checkbox {
 		margin: 20px 0;
 	}
+
+	.enviar {
+		width: 40%;
+		padding: 20px 0;
+		background: orange;
+		color: white;
+		font-weight: bolder;
+		border: none;
+		border-radius: 5px;
+		transition: 1s background;
+		cursor: pointer;
+	}
+
+	.enviar:hover {
+		background: red;
+	}
