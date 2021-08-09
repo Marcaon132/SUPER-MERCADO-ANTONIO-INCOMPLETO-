@@ -115,7 +115,8 @@
 
 	.imgcabeçalho {
 		padding: 17px;
-		width: 150px;
+		width: 60px;
+		margin: 30px 0;
 	}
 
 	.cabeçalhocopy {
@@ -134,9 +135,9 @@
 		font-weight: bold;
 	}
 
-	form label, form p {
+	form label, form legend {
 		display: block;
-		font-size: 20px;
+		font-size: 22px;
 		margin: 0 0 10px;
 	}
 
